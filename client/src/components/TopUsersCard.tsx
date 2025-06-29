@@ -108,11 +108,6 @@ const TopUsersCard = ({ users, isLoading }: TopUsersCardProps) => {
                   <p className="font-bold text-slate-100 text-base truncate max-w-32">
                     {user._id}
                   </p>
-                  {index === 0 && (
-                    <div className="bg-gradient-to-r from-yellow-500 to-amber-600 text-slate-900 text-xs px-2 py-0.5 rounded-full font-bold shadow-sm">
-                      CHAMPION
-                    </div>
-                  )}
                 </div>
                 <div className="flex items-center gap-2 text-slate-400">
                   <Activity className="w-3 h-3" />
